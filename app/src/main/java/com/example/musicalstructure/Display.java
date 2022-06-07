@@ -5,21 +5,21 @@ public class Display {
     private String mArtistName;
     private int mImageResourceId;
 
-    public Display(String AlbumName, String ArtistName, int ImageResourceId){
+    public Display(String AlbumName, String ArtistName, int ImageResourceId) {
         mAlbumName = AlbumName;
         mArtistName = ArtistName;
         mImageResourceId = ImageResourceId;
     }
-    public String getAlbumName()
-    {
+
+    public String getAlbumName() {
         return mAlbumName;
     }
-    public String getArtistName()
-    {
+
+    public String getArtistName() {
         return mArtistName;
     }
-    public int getImageResourceId()
-    {
+
+    public int getImageResourceId() {
         return mImageResourceId;
     }
 

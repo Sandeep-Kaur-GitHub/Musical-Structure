@@ -26,6 +26,7 @@
         android:layout_below="@id/textview_album"
         tools:text="Artist"/>
     <Button
+        android:focusable="false"
         android:paddingTop="20dp"
         android:layout_width="30dp"
         android:layout_height="match_parent"

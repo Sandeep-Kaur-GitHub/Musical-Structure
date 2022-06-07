@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MusicalStructure">
         <activity
+            android:name=".one_song"
+            android:exported="false" />
+        <activity
+            android:name=".songs_list"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
