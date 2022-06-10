@@ -14,7 +14,7 @@
         android:padding="15dp"
         android:text="Albums"
         android:textColor="@color/black"
-        android:textSize="28dp"
+        android:textSize="28sp"
         android:textStyle="bold" />
 
     <ListView

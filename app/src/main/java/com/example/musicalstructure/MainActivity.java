@@ -19,8 +19,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ArrayList<Display> array_list = new ArrayList<Display>();
-        array_list.add(new Display("Lukka Chuppi", "Various Artists", R.drawable.lukkachuppi));
-        array_list.add(new Display("Kabir Singh", "Vishal,Mithoon,Sachet-Parampara", R.drawable.kabir));
+        array_list.add(new Display("Lukka Chuppi", "Various Artists", R.drawable.haanmujhe));
+        array_list.add(new Display("Kabir Singh", "Vishal,Mithoon,Sachet-Parampara", R.drawable.bekhyali));
         DisplayAdapter display_adapter = new DisplayAdapter(this, array_list);
         ListView list_view = findViewById(R.id.list_view_main);
         list_view.setAdapter(display_adapter);
